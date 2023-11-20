@@ -102,7 +102,6 @@ header nav ul li {
 
 section {
     padding-block: 150px;
-    /* background-color: black; */
 }
 
 section .img-text {
@@ -124,6 +123,11 @@ section .img-text .section-text {
     padding-inline: 20px;
 }
 
+.odd-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
 section .section-text h2 {
     font-size: 35px;
     margin-bottom: 30px;
@@ -134,7 +138,7 @@ section .section-text p {
 }
 
 section.discord-services:nth-child(even) {
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 section.discord-services:nth-child(even) .img-text figure {
@@ -145,6 +149,36 @@ section.discord-services:last-child {
     text-align: center;
 }
 
+.section-column {
+    width: 60%;
+}
+
+.section-column h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-column button {
+    background-color: #8EA1E1;
+    color: white;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-column h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    background-image: url('/assets/img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top;
+}
 
 footer {
     background-color: #121212;
