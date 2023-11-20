@@ -28,12 +28,14 @@ header nav {
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    font-size: 13px;
 }
 
 header nav ul {
     display: flex;
     gap: 30px;
     text-transform: capitalize;
+    font-weight: 600;
 }
 
 header nav ul li {
