@@ -1,47 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+body {
+    font-family: sans-serif;
+}
+
+a {
     text-decoration: none;
 }
 
-header{
-    /* padding: 10px 20px; */
-    background-color: lightcyan;
+/* HEADER STYLING */
+header {
+    background-image: url('/assets/img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-bottom: 50px;
+    color: white;
 }
 
-header nav{
-    background-color: lightcoral;
-
+header nav {
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
 }
 
-header nav figure,
-header nav ul,
-header nav a{
-    background-color: lightgoldenrodyellow;
-    border: 1px dashed black;
-}
-
-header nav ul{
+header nav ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    text-transform: capitalize;
 }
 
-header nav ul li{
-    /* display: inline-block; */
-
+header nav ul li {
     list-style-type: none;
 }
 
-#cta{
+.access-btn {
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+    text-transform: capitalize;
+}
+
+#cta {
     background-color: lightpink;
     width: 60%;
     margin: 50px auto 0 auto;
@@ -49,73 +59,73 @@ header nav ul li{
     text-align: center;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
-section{
+section {
     border: 1px dashed black;
     padding-block: 20px;
     /* background-color: black; */
 }
 
-section figure{
+section figure {
     background-color: lightgoldenrodyellow;
 }
 
-section .section-text{
+section .section-text {
     background-color: lightgreen;
 }
 
-section .img-text{
+section .img-text {
     display: flex;
 }
 
-section .img-text figure{
+section .img-text figure {
     flex-basis: 70%;
 }
 
-section .img-text .section-text{
+section .img-text .section-text {
     flex-basis: 30%;
 }
 
-section.discord-services:nth-child(even){
+section.discord-services:nth-child(even) {
     background-color: lightgray;
 }
 
-section.discord-services:nth-child(even) .img-text figure{
+section.discord-services:nth-child(even) .img-text figure {
     order: 1;
 }
 
-section.discord-services:last-child{
+section.discord-services:last-child {
     text-align: center;
 }
 
 
-footer{
+footer {
     background-color: #121212;
     color: white;
 }
 
-footer ul li{
+footer ul li {
     list-style-type: none;
 }
 
-footer .container{
+footer .container {
     display: flex;
     /* justify-content: space-between; */
 }
 
-footer .container > div{
+footer .container>div {
     flex-grow: 1;
 }
 
-footer .container>div:first-child{
+footer .container>div:first-child {
     flex-grow: 2;
 }
 
-footer .footer-login{
+footer .footer-login {
     display: flex;
     justify-content: space-between;
 }
