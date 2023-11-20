@@ -180,13 +180,33 @@ section.discord-services:last-child {
     background-position: top;
 }
 
+/* FOOTER STYLING */
 footer {
-    background-color: #121212;
+    background-color: #23272A;
     color: white;
+    padding-block: 60px;
+}
+
+footer h3,
+footer h4 {
+    color: #7289DA;
+}
+
+footer h3 {
+    font-size: 30px;
+}
+
+footer ul {
+    margin-bottom: 20px;
 }
 
 footer ul li {
     list-style-type: none;
+    padding-block: 5px;
+}
+
+footer ul li a {
+    color: white;
 }
 
 footer .container {
@@ -202,7 +222,13 @@ footer .container>div:first-child {
     flex-grow: 2;
 }
 
+hr {
+    border: 0.5px solid #7289DA;
+    border-collapse: collapse;
+}
+
 footer .footer-login {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
