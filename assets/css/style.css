@@ -218,7 +218,7 @@ footer .container>div {
 }
 
 footer .container>div:first-child {
-    flex-grow: 2;
+    flex-basis: 25%;
 }
 
 footer>div>div>h3 {
@@ -257,5 +257,16 @@ hr {
 footer .footer-login {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.register-btn {
+    color: white;
+    background-color: #8EA1E1;
+    border-radius: 30px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+    text-transform: capitalize;
 }
