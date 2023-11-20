@@ -102,6 +102,7 @@ header nav ul li {
 
 section {
     padding-block: 150px;
+    position: relative;
 }
 
 section .img-text {
@@ -269,4 +270,17 @@ footer .footer-login {
     text-align: center;
     vertical-align: center;
     text-transform: capitalize;
+}
+
+/* WAVE SEPARATORS */
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    color: #F6F6F6;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
 }
