@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 a {
@@ -28,7 +28,7 @@ header nav {
     align-items: center;
     width: 80%;
     margin: 0 auto;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 header nav ul {
